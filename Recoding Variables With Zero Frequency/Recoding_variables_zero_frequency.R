@@ -55,7 +55,6 @@ result <- map(columns, ~data_attachment %>%
                 summarise(freq = n()))
 
 #------------------------------------------------------------------------------
-# This does not work as it should - redo the code
 
 # Function to identify items with zero frequency in any category for each group
 find_items_with_zero_frequency <- function(df) {
